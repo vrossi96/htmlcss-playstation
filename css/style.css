@@ -11,7 +11,7 @@
 }
 [class*="col"] {
   border: 1px dashed blueviolet;
-  height: 30px;
+  min-height: 30px;
 }
 
 /* Header */
@@ -28,7 +28,18 @@
 /* second section */
 #second-section {
   background-color: #1f1f1f;
+}
+/* third jumbotron */
+#third-jumbo {
+  background-color: #bebcbb;
+}
 
-  /* !remove */
-  color: white;
+/* fourth jumbotron  */
+#fourth-jumbo {
+  background-color: #161c3b;
+}
+
+/* footer */
+footer {
+  background-color: #00439c;
 }
