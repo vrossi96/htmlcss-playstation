@@ -1,1 +1,8 @@
- 
+/* Header */
+#top-header {
+  height: 30px;
+  background-color: #000;
+}
+#top-header img {
+  height: 15px;
+}
