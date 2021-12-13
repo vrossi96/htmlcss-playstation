@@ -14,6 +14,11 @@
   /* min-height: 30px; */
 }
 
+/* *********************** Utilities ******************* */
+.btn-secondary {
+  background-color: #363636;
+}
+
 /* Header */
 #top-header {
   height: 30px;
@@ -21,6 +26,14 @@
 }
 #top-header img {
   height: 15px;
+}
+
+/* header bottom */
+#bottom-header .nav-item > a {
+  color: #000;
+}
+#bottom-header .nav-item img {
+  height: 1.5rem;
 }
 
 /* top jumbo */
