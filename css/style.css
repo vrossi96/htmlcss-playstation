@@ -84,7 +84,7 @@ footer {
   height: 1.5rem;
 }
 
-/* jumbo */
+/* jumbos */
 #top-jumbo {
   background-image: url(../img/jumbo-bg.png);
   height: 600px;
@@ -92,9 +92,14 @@ footer {
 #second-jumbo {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
+#third-jumbo .d-none {
+  background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+  height: 400px;
+}
 
 #top-jumbo,
-#second-jumbo {
+#second-jumbo,
+#third-jumbo .d-none {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,6 +112,10 @@ footer {
 /* third jumbotron */
 #third-jumbo {
   background-color: var(--light-gray-ps);
+}
+
+#third-jumbo img {
+  height: 80px;
 }
 
 /* fourth jumbotron  */
