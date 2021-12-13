@@ -94,12 +94,17 @@ footer {
 }
 #third-jumbo .d-none {
   background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-  height: 400px;
+  min-height: 400px;
+}
+#fourth-jumbo .d-none {
+  background-image: url(../img/ps-now-april-featured-image-block.png);
+  min-height: 400px;
 }
 
 #top-jumbo,
 #second-jumbo,
-#third-jumbo .d-none {
+#third-jumbo .d-none,
+#fourth-jumbo .d-none {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -114,7 +119,8 @@ footer {
   background-color: var(--light-gray-ps);
 }
 
-#third-jumbo img {
+#third-jumbo img,
+#fourth-jumbo img {
   height: 80px;
 }
 
