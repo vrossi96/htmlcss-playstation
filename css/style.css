@@ -24,3 +24,11 @@
 }
 
 /* top jumbo */
+
+/* second section */
+#second-section {
+  background-color: #1f1f1f;
+
+  /* !remove */
+  color: white;
+}
