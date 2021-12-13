@@ -1,3 +1,19 @@
+.container {
+  border: 1px solid orange;
+}
+.container-fluid {
+  border: 1px solid red;
+}
+
+.row {
+  border: 1px solid blue;
+  margin: 5px 0;
+}
+[class*="col"] {
+  border: 1px dashed blueviolet;
+  height: 30px;
+}
+
 /* Header */
 #top-header {
   height: 30px;
@@ -6,3 +22,5 @@
 #top-header img {
   height: 15px;
 }
+
+/* top jumbo */
