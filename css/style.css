@@ -16,6 +16,7 @@
 
 /* ********************* Main ********************** */
 :root {
+  --dark-blue-ps: #161c3b;
   --blue-ps: #00439c;
   --light-blue-ps: #2d64e6;
   --gray-ps: #727272;
@@ -30,6 +31,9 @@ footer {
 
 /* *********************** Utilities ******************* */
 /* Colors */
+.text-dblue-ps {
+  color: var(--dark-blue-ps);
+}
 .text-blue-ps {
   color: var(--blue-ps);
 }
