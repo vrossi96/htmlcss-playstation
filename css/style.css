@@ -7,11 +7,11 @@
 
 .row {
   border: 1px solid blue;
-  margin: 5px 0;
+  /* margin: 5px 0; */
 }
 [class*="col"] {
   border: 1px dashed blueviolet;
-  min-height: 30px;
+  /* min-height: 30px; */
 }
 
 /* Header */
