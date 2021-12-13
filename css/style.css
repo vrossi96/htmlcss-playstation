@@ -42,6 +42,9 @@ footer {
   color: var(--light-gray-ps);
 }
 
+.btn-primary {
+  background-color: var(--light-blue-ps);
+}
 .btn-secondary {
   background-color: #363636;
 }
