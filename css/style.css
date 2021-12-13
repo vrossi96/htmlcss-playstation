@@ -93,7 +93,7 @@ footer {
 }
 /* third jumbotron */
 #third-jumbo {
-  background-color: #bebcbb;
+  background-color: var(--light-gray-ps);
 }
 
 /* fourth jumbotron  */
