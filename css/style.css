@@ -29,6 +29,7 @@ footer {
 }
 
 /* *********************** Utilities ******************* */
+/* Colors */
 .text-blue-ps {
   color: var(--blue-ps);
 }
@@ -42,6 +43,12 @@ footer {
   color: var(--light-gray-ps);
 }
 
+/* Borders */
+.rounded-4 {
+  border-radius: 1rem;
+}
+
+/* Buttons */
 .btn-primary {
   background-color: var(--light-blue-ps);
 }
