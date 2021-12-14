@@ -142,3 +142,8 @@ footer {
 #logo-language > div {
   max-height: 50px;
 }
+
+#sie img {
+  height: 50px;
+  max-height: 75px;
+}
