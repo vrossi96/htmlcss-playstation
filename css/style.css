@@ -19,8 +19,10 @@
   --dark-blue-ps: #161c3b;
   --blue-ps: #00439c;
   --light-blue-ps: #2d64e6;
+  --secondary: #363636;
   --gray-ps: #727272;
   --light-gray-ps: #bebcbb;
+  --info: #cd3d0f;
 }
 
 body {
@@ -56,16 +58,41 @@ body {
   background-color: var(--light-blue-ps);
 }
 .btn-secondary {
-  background-color: #363636;
+  background-color: var(--secondary);
 }
 .btn-info,
 .btn-info:hover,
 .btn-info:active {
   color: white;
-  background-color: #cd3d0f;
-  border-color: #cd3d0f;
+  background-color: var(--info);
+  border-color: #000;
 }
 
+/* [class*="btn-"].btn:hover {
+  border: 1px inset black;
+} */
+.btn-wrap {
+  border: 2px solid transparent;
+  border-radius: 1.5rem;
+  padding: 0.375rem 0.75rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+[class*="primary"].btn-wrap:hover {
+  border-color: white;
+  background-color: var(--light-blue-ps);
+  box-shadow: 0 0 0 0.2rem var(--light-blue-ps);
+}
+[class*="secondary"].btn-wrap:hover {
+  border-color: white;
+  background-color: var(--secondary);
+  box-shadow: 0 0 0 0.2rem var(--secondary);
+}
+[class*="info"].btn-wrap:hover {
+  border-color: #000;
+  background-color: var(--info);
+  box-shadow: 0 0 0 0.2rem var(--info);
+}
 /* Header */
 #top-header {
   height: 30px;
