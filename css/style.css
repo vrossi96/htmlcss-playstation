@@ -78,10 +78,14 @@ body {
   box-shadow: 0px 2px 4px #000;
 }
 #bottom-header i {
-  transition: 0.3s;
+  transition: transform 0.3s;
 }
 #bottom-header li:hover i {
+  color: var(--light-blue-ps);
   transform: rotate(-180deg);
+}
+#bottom-header li:hover a {
+  color: var(--light-blue-ps);
 }
 /* header bottom */
 #bottom-header {
@@ -103,19 +107,9 @@ body {
 #second-jumbo {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
-#third-jumbo .d-none {
-  background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-  min-height: 500px;
-}
-#fourth-jumbo .d-none {
-  background-image: url(../img/ps-now-april-featured-image-block.png);
-  min-height: 500px;
-}
 
 #top-jumbo,
-#second-jumbo,
-#third-jumbo .d-none,
-#fourth-jumbo .d-none {
+#second-jumbo {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -127,11 +121,12 @@ body {
   padding: 2px;
 }
 #ps5_games img:hover {
-  border: 2px solid var(--light-blue-ps);
   transform: translateY(-1.2rem);
 }
-
-#ps5-accessories > div:hover {
+#ps5_games img:active {
+  border: 2px solid var(--light-blue-ps);
+}
+#ps5-accessories > div:active {
   border-bottom: 2px solid var(--light-blue-ps);
 }
 /* second section */
