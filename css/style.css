@@ -23,8 +23,7 @@
   --light-gray-ps: #bebcbb;
 }
 
-main,
-footer {
+body {
   position: relative;
   top: 106px;
 }
@@ -136,4 +135,7 @@ footer {
 /* footer */
 footer {
   background-color: var(--blue-ps);
+}
+.language img {
+  height: 24px;
 }
