@@ -102,11 +102,11 @@ body {
 }
 #third-jumbo .d-none {
   background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
-  min-height: 400px;
+  min-height: 500px;
 }
 #fourth-jumbo .d-none {
   background-image: url(../img/ps-now-april-featured-image-block.png);
-  min-height: 400px;
+  min-height: 500px;
 }
 
 #top-jumbo,
