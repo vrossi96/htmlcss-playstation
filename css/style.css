@@ -68,9 +68,6 @@ body {
   border-color: #000;
 }
 
-/* [class*="btn-"].btn:hover {
-  border: 1px inset black;
-} */
 .btn-wrap {
   border: 2px solid transparent;
   border-radius: 1.5rem;
@@ -178,7 +175,7 @@ body {
 
 /* fourth jumbotron  */
 #fourth-jumbo {
-  background-color: #161c3b;
+  background-color: var(--dark-blue-ps);
 }
 
 /* footer */
