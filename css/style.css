@@ -74,7 +74,12 @@ body {
 #top-header img {
   height: 15px;
 }
-
+#bottom-header i {
+  transition: 0.3s;
+}
+#bottom-header li:hover i {
+  transform: rotate(-180deg);
+}
 /* header bottom */
 #bottom-header {
   background-color: #fff;
