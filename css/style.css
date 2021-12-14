@@ -157,11 +157,17 @@ body {
 footer {
   background-color: var(--blue-ps);
 }
+[src*="ps-footer"] {
+  height: 75px;
+}
 .language img {
   height: 24px;
 }
+#logo-language {
+  min-height: 150px;
+}
 #logo-language > div {
-  max-height: 50px;
+  height: 50px;
 }
 
 #sie img {
