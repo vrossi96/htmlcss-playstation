@@ -129,6 +129,12 @@ body {
 #ps5-accessories > div:active {
   border-bottom: 2px solid var(--light-blue-ps);
 }
+#ps5-accessories img.opacity-75-ps {
+  filter: opacity(75%);
+}
+#ps5-accessories > div:hover img {
+  filter: opacity(100%);
+}
 /* second section */
 #second-section {
   background-color: #1f1f1f;
