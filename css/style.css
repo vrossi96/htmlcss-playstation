@@ -74,6 +74,9 @@ body {
 #top-header img {
   height: 15px;
 }
+#bottom-header {
+  box-shadow: 0px 2px 4px #000;
+}
 #bottom-header i {
   transition: 0.3s;
 }
