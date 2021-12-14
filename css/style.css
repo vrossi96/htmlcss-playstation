@@ -139,3 +139,6 @@ footer {
 .language img {
   height: 24px;
 }
+#logo-language > div {
+  max-height: 50px;
+}
