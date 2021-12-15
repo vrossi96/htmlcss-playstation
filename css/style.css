@@ -113,7 +113,23 @@ body {
 }
 
 /* Dropdown */
-
+.dropdown-menu {
+  border: none;
+}
+@media screen and (min-width: 992px) {
+  .dropdown,
+  .navbar {
+    position: static;
+  }
+  .dropdown-menu {
+    width: 100vw;
+    border-radius: 0;
+    box-shadow: 0px 2px 4px #000;
+  }
+  .dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+  }
+}
 /* header bottom */
 #bottom-header {
   background-color: #fff;
