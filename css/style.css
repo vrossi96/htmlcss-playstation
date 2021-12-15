@@ -111,6 +111,9 @@ body {
 #bottom-header li:hover a {
   color: var(--light-blue-ps);
 }
+
+/* Dropdown */
+
 /* header bottom */
 #bottom-header {
   background-color: #fff;
