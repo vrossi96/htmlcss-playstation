@@ -60,6 +60,9 @@ body {
 .btn-secondary {
   background-color: var(--secondary);
 }
+.btn-transparent {
+  background-color: #f8f9fa9f;
+}
 .btn-info,
 .btn-info:hover,
 .btn-info:active {
@@ -89,6 +92,16 @@ body {
   border-color: #000;
   background-color: var(--info);
   box-shadow: 0 0 0 0.2rem var(--info);
+}
+[class*="transparent"].btn-wrap:hover {
+  color: var(--blue-ps);
+  background-color: #f8f9fa9f;
+  border-color: var(--light-gray-ps);
+  box-shadow: 0 0 0 0.2rem #f8f9fa9f;
+}
+[class*="light"].btn-wrap:hover {
+  border-color: var(--dark-blue-ps);
+  box-shadow: 0 0 0 0.2rem #fff;
 }
 /* Header */
 #top-header {
