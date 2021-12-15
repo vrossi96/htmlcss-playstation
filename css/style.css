@@ -150,7 +150,7 @@ body {
 #ps5_games img:active {
   border: 2px solid var(--light-blue-ps);
 }
-#ps5-accessories > div:active {
+#ps5-accessories > div:hover {
   border-bottom: 2px solid var(--light-blue-ps);
 }
 #ps5-accessories img.opacity-75-ps {
